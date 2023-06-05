@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: beige;
+    background-image: url(rail.jpg);
+    background-size: cover;
+    color: rgb(255 255 255);
+    min-height: calc(100vh - 6vh);
+
+}
+h1{
+    margin: 12px 0;
+    font-size: 50px;
+     
+    
+}
+h2{
+    font-size: 37px;
+    margin: 20px 0;
+}
+.button1:hover{
+    /* font-size:large; */
+    font-style: italic;
+    background-color: darkred;
+}
+.button2:hover{
+    font-style: italic;
+    background-color: darkred;
+    
+}
+.savebtn:hover{
+    font-style: italic;
+    background-color: darkgreen;
+    
+}
+.button1{
+    /* display: inline-flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgb(211, 0, 0);
+    color: white;
+    margin: 15px 0;
+    padding: 5px 2px;
+    width: 150px;
+    border-radius: 4px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+.button2{
+    
+    background-color: rgb(211, 0, 0);
+    color: white;
+    margin: 10px 0;
+    padding: 5px 2px;
+    width: 150px;
+    border-radius: 4px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+.savebtn{
+    background-color: green;
+    color: white;
+    margin: 15px 0;
+    padding: 5px 2px;
+    width: 170px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+#entries{
+    margin: 10px;
+    padding: 4px;
+    color: black;
+}
+p{
+    font-size: 20px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    height: 4vh;
+    background-color: rgb(168, 155, 155);
+    color: white;
+    font-weight: bold;
+    padding: 6px 0;
+}
